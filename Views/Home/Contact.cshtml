@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+@* adding a black background to the page white white text  *@
+<style>
+    body {
+        background-color: black;
+        color: white; /* Ensures text is readable on dark background */
+    }
+</style>
+
+
+<div style="font-size:120%" class="Contact">
+    <h1 align="center" >Contact Details</h1>
+   
+</div>
+
+@* this is the email icon that will redirect the user if they click on it *@
+<div class="email" >
+
+    <a href="mailto:example@example.com"  title="Send me an email">
+        <img src="~/Email_icon.jpg"  width ="150" height="150" >
+     </a>       
+  
+   
+</div>
+<div class="instagram">
+    @* target blank opens a new page and redirects the user to the link they clicked on  *@
+    <a href="https://www.instagram.com/yash4_og_madhir" target="_blank" title="Follow me on Instagram">
+        <img src="~/instagram_icon.jpg"  width="150" height="150" />
+
+
+    </a>
+</div>
+
+@* title allows the user to see what is siad if they hover over the icon with their pointer *@
+<div class="phone" title="Phone: 079 375 3759"> 
+   <img src ="~/Phone_icon.jpg" width="150" height="150"/> 
+   
+  
+
+
+ </div>
+

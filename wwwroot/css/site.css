@@ -1,0 +1,100 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+/* Add some content at the video/page */
+.content {
+    position: fixed;
+    top: 60px;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+img {
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    right: 150px;
+}
+.Why {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 50%;
+    height: 50%;
+   
+}
+.Strengths {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 50%;
+    height: 50%;
+   
+}
+.Weaknesses {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 50%;
+    height: 50%;
+    
+}
+.email {
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    /*  right align shifts the image to the right by 300pixels*/
+    right: 470px;
+
+   
+}
+.instagram {
+    border-radius: 40%;
+    position: absolute;
+    top: 150px;
+    /*  left align shifts the image to the right by 300pixels*/
+    left: 720px;
+}
+.phone {
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    /*  left align shifts the image to the right by 300pixels*/
+    right: 300px;
+}

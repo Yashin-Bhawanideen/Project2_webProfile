@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Yashin's Profile";
+}
+@* the video will play only if it is stored in te wwwroot which is like a storage space for the web *@
+<!-- The video -->
+<video autoplay muted loop id="myVideo">
+    <source src="~/background.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+@* the div basically makes the info grouped together in its own box  *@
+<div class="content"  >
+    <h1 class="Welcome" style="font-size:250%">Welcome to my profile my name is Yashin Bhawanideen</h1>
+    <br />
+
+    <p style="font-size:150%">I am a software engineer with 3 years of experience.</p>
+	<p style="font-size:150%">I built my coding skills using these coding languages:</p>
+    <ul>
+        <li>Java</li>
+        <li>C#</li>
+        <li>Html</li>
+		<li>CSS</li>
+		
+    </ul>
+    <img src="~/photo.jpg" align ="right" width="300" height="300">
+    </div>
+
+   
+    
+   
+  
